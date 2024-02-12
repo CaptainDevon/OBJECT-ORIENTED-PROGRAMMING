@@ -8,7 +8,7 @@ private:
 
 public:
     point(float x = 5, float y = 5, float z = 5) : x_(x), y_(y), z_(z) {}
-    point(const point &p) : x_(p.x_), y_(p.y_), z_(p.z_) {}
+    point(const point &p) : x_(p.x_), y_(p.y_), z_(p.z_) {} // copy constructor
     void negate()
     {
         x_ *= -1;
